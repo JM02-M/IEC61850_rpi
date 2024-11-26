@@ -1,7 +1,7 @@
 LIBIEC_HOME=../..
 
-PROJECT_BINARY_NAME = goose_subscriber_example
-PROJECT_SOURCES = goose_subscriber_example.c
+PROJECT_BINARY_NAME = goose_sub_gpio
+PROJECT_SOURCES = goose_sub_gpio.c
 
 include $(LIBIEC_HOME)/make/target_system.mk
 include $(LIBIEC_HOME)/make/stack_includes.mk
